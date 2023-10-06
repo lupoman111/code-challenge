@@ -1,0 +1,80 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url("images/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.container{
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 1200px;
+    height: 850px;
+    margin: 25px auto 50px;
+    padding: 100px 0 100px 0;
+    border-radius: 2%;
+}
+header img{
+    display: block;
+    margin: auto;   
+    width: 250px;
+    height: 110px; 
+}
+header h1{
+    color: #00DD00;
+    text-align: center;
+    font-family: 'Didact Gothic', sans-serif;
+    margin: 5px 0 5px 0;
+}
+    
+nav{
+    background-color: #00DD00;
+}
+nav.nav-box, main.main-box{
+    width: 1000px;
+    margin: auto;
+}
+.buttons-container{
+    text-align: center;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.container-monopattino{
+    color: white;
+}
+h3{
+    font-size: 25px;
+    font-family: 'Didact Gothic', sans-serif;
+    margin-bottom: 3px;
+}
+.nome-monopattino{
+    display: inline-block;
+}
+.indirizzo, .stato-carica span{
+    display: block;
+    font-family: 'Didact Gothic', sans-serif;
+    font-size: 18px;
+    opacity: 0.8;
+    margin-bottom: 3px;
+}
+
+.carica-gialla{
+    width: 300px;
+    height: 30px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.carica-verde{
+    width: 600px;
+    height: 30px;
+    background-color: rgb(76, 204, 76);
+    border-radius: 5px;
+}
+.carica-rossa{
+    width: 150px;
+    height: 30px;
+    background-color: red;
+    border-radius: 5px;
+}
